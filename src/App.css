@@ -1,73 +1,70 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  min-width: 200px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka One', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.App {
+section{
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 320px) {
-  .App{
-    min-width: 200px;
-  }
-  div{
-    height: 350px;
-  }
-  button{
-    margin-top:60px ;
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-  }
 }
-@media (min-width: 768px) {
-  .App{
-    min-width: 200px;
-  }
-  div{
-    height: 200px;
-  }
-  button{
-  margin: 0px 0px 
-  }
+div.container{
+  max-width: 50%;
+  height:400px;
+  font-size: 25px;
+  background-color: aliceblue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+line-height: 1.5;
+border-radius: 10%;
+padding: 20PX;
+text-align: center;
+align-items: center;
+}
+button{
+  text-decoration: none;
+  border-radius: 10%;
+  font-size: 25px;
+  background-color: lightseagreen;
+  border: 2px solid lightgreen;
+  padding: 10px;
+}
+section.App{
+  height: 2000px;
+  flex-direction: column;
+  gap: 50px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 800px;
+  color: aliceblue;
+}
+.autor{
+  gap:30px;
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 5px;
+ border-radius: 10px;
+  border: 1px solid;
+}
+h2{
+  color: aliceblue;
+  font-size: 30px;
+  margin-top: 200px;
 }
