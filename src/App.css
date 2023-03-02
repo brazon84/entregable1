@@ -1,41 +1,45 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fredoka One', cursive;
-font-family: 'Indie Flower', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;
 }
-section{
+
+section {
   width: 100%;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
-.App{
+
+.App {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 
 }
-div.container{
+
+div.container {
   max-width: 50%;
-  height:400px;
+  height: 400px;
   font-size: 25px;
   background-color: aliceblue;
-display: flex;
-flex-direction: column;
-justify-content: center;
-line-height: 1.5;
-border-radius: 10%;
-padding: 20PX;
-text-align: center;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+  border-radius: 10%;
+  padding: 20PX;
+  text-align: center;
+  align-items: center;
 }
-button{
+
+button {
   text-decoration: none;
   border-radius: 10%;
   font-size: 25px;
@@ -43,28 +47,59 @@ button{
   border: 2px solid lightgreen;
   padding: 10px;
 }
-section.App{
+
+section.App {
   height: 2000px;
   flex-direction: column;
   gap: 50px;
 }
-footer{
+
+footer {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 800px;
   color: aliceblue;
 }
-.autor{
-  gap:30px;
+
+.autor {
+  gap: 30px;
   font-size: 30px;
   margin-top: 20px;
   padding: 5px;
- border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid;
 }
-h2{
+
+h2 {
   color: aliceblue;
   font-size: 30px;
   margin-top: 200px;
 }
+@media (min-width:768px){
+ div.container{
+  height: 600px;
+ }
+}
+@media (min-width:425px){
+  div.container{
+   height: 400px;
+  }
+  .autor, div.container, button, h2{
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+ }
+ @media (min-width:320px){
+  div.container{
+   height: 300px;
+  }
+  .autor, div.container, button, h2{
+    font-size: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+ }
