@@ -1,5 +1,5 @@
 
-import './index.css';
+
 import './App.css';
 import Phrase from '../src/components/Random/Random';
 import data from './assets/pharases.json';

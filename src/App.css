@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fredoka One', cursive;
-  font-family: 'Indie Flower', cursive;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Merriweather', serif;
 }
 
 section {
@@ -26,14 +23,14 @@ section {
 
 div.container {
   max-width: 50%;
-  height: 400px;
+  height: 300px;
   font-size: 25px;
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   line-height: 1.5;
-  border-radius: 10%;
+  border-radius: .5rem;
   padding: 20PX;
   text-align: center;
   align-items: center;
@@ -49,26 +46,19 @@ button {
 }
 
 section.App {
-  height: 2000px;
+  height: 1100px;
   flex-direction: column;
   gap: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 800px;
+  margin-top: 600px;
   color: aliceblue;
-}
-
-.autor {
-  gap: 30px;
-  font-size: 30px;
-  margin-top: 20px;
-  padding: 5px;
-  border-radius: 10px;
-  border: 1px solid;
 }
 
 h2 {
